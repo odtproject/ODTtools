@@ -1,0 +1,312 @@
+MakeNSIS v2.46 - Copyright 1995-2009 Contributors
+See the file COPYING for license details.
+Credits can be found in the Users Manual.
+
+Command line defined: "VERSIONMAJ=0"
+Command line defined: "VERSIONMIN=6"
+Command line defined: "VERSIONBLD=3"
+Command line defined: "EXE_NAME=ObitEdit2.exe"
+Command line defined: "PRODUCT_NAME=ObitEdit206"
+Command line defined: "APP_NAME=ObitEdit2"
+Command line defined: "FOLDER=.."
+Changing directory to: "C:\Users\Owner\workspace\ObitEdit2Project\nsis"
+
+Processing script file: "C:\Users\Owner\workspace\ObitEdit2Project\nsis\obitedit.nsi"
+Processing plugin dlls: "C:\Program Files (x86)\NSIS\Plugins\*.dll"
+ - AdvSplash::show
+ - Banner::destroy
+ - Banner::getWindow
+ - Banner::show
+ - BgImage::AddImage
+ - BgImage::AddText
+ - BgImage::Clear
+ - BgImage::Destroy
+ - BgImage::Redraw
+ - BgImage::SetBg
+ - BgImage::SetReturn
+ - BgImage::Sound
+ - Dialer::AttemptConnect
+ - Dialer::AutodialHangup
+ - Dialer::AutodialOnline
+ - Dialer::AutodialUnattended
+ - Dialer::GetConnectedState
+ - INetC::get
+ - INetC::head
+ - INetC::post
+ - INetC::put
+ - InstallOptions::dialog
+ - InstallOptions::initDialog
+ - InstallOptions::show
+ - InstallOptionsEx::dialog
+ - InstallOptionsEx::initDialog
+ - InstallOptionsEx::setFocus
+ - InstallOptionsEx::show
+ - InstallOptionsEx::skipValidation
+ - InstallOptionsEx_legacy::dialog
+ - InstallOptionsEx_legacy::initDialog
+ - InstallOptionsEx_legacy::setFocus
+ - InstallOptionsEx_legacy::show
+ - InstallOptionsEx_legacy::skipValidation
+ - InstallOptionsEx_newAPI::dialog
+ - InstallOptionsEx_newAPI::initDialog
+ - InstallOptionsEx_newAPI::setFocus
+ - InstallOptionsEx_newAPI::show
+ - InstallOptionsEx_newAPI::skipValidation
+ - LangDLL::LangDialog
+ - Math::Script
+ - NSISArray::ArrayCount
+ - NSISArray::ArrayExists
+ - NSISArray::Clear
+ - NSISArray::Concat
+ - NSISArray::Copy
+ - NSISArray::Cut
+ - NSISArray::Debug
+ - NSISArray::Delete
+ - NSISArray::ErrorStyle
+ - NSISArray::Exists
+ - NSISArray::ExistsI
+ - NSISArray::FreeUnusedMem
+ - NSISArray::Join
+ - NSISArray::New
+ - NSISArray::Pop
+ - NSISArray::Push
+ - NSISArray::Put
+ - NSISArray::ReDim
+ - NSISArray::Read
+ - NSISArray::ReadToStack
+ - NSISArray::Reverse
+ - NSISArray::Search
+ - NSISArray::SearchI
+ - NSISArray::SetAutoReDim
+ - NSISArray::SetSize
+ - NSISArray::Shift
+ - NSISArray::SizeOf
+ - NSISArray::Sort
+ - NSISArray::Splice
+ - NSISArray::Subtract
+ - NSISArray::Swap
+ - NSISArray::Unshift
+ - NSISArray::Write
+ - NSISArray::WriteList
+ - NSISArray::WriteListC
+ - NSISArray_legacy::ArrayCount
+ - NSISArray_legacy::ArrayExists
+ - NSISArray_legacy::Clear
+ - NSISArray_legacy::Concat
+ - NSISArray_legacy::Copy
+ - NSISArray_legacy::Cut
+ - NSISArray_legacy::Debug
+ - NSISArray_legacy::Delete
+ - NSISArray_legacy::ErrorStyle
+ - NSISArray_legacy::Exists
+ - NSISArray_legacy::ExistsI
+ - NSISArray_legacy::FreeUnusedMem
+ - NSISArray_legacy::Join
+ - NSISArray_legacy::New
+ - NSISArray_legacy::Pop
+ - NSISArray_legacy::Push
+ - NSISArray_legacy::Put
+ - NSISArray_legacy::ReDim
+ - NSISArray_legacy::Read
+ - NSISArray_legacy::ReadToStack
+ - NSISArray_legacy::Reverse
+ - NSISArray_legacy::Search
+ - NSISArray_legacy::SearchI
+ - NSISArray_legacy::SetAutoReDim
+ - NSISArray_legacy::SetSize
+ - NSISArray_legacy::Shift
+ - NSISArray_legacy::SizeOf
+ - NSISArray_legacy::Sort
+ - NSISArray_legacy::Splice
+ - NSISArray_legacy::Subtract
+ - NSISArray_legacy::Swap
+ - NSISArray_legacy::Unload
+ - NSISArray_legacy::Unshift
+ - NSISArray_legacy::Write
+ - NSISArray_legacy::WriteList
+ - NSISArray_legacy::WriteListC
+ - NSISArray_newAPI::ArrayCount
+ - NSISArray_newAPI::ArrayExists
+ - NSISArray_newAPI::Clear
+ - NSISArray_newAPI::Concat
+ - NSISArray_newAPI::Copy
+ - NSISArray_newAPI::Cut
+ - NSISArray_newAPI::Debug
+ - NSISArray_newAPI::Delete
+ - NSISArray_newAPI::ErrorStyle
+ - NSISArray_newAPI::Exists
+ - NSISArray_newAPI::ExistsI
+ - NSISArray_newAPI::FreeUnusedMem
+ - NSISArray_newAPI::Join
+ - NSISArray_newAPI::New
+ - NSISArray_newAPI::Pop
+ - NSISArray_newAPI::Push
+ - NSISArray_newAPI::Put
+ - NSISArray_newAPI::ReDim
+ - NSISArray_newAPI::Read
+ - NSISArray_newAPI::ReadToStack
+ - NSISArray_newAPI::Reverse
+ - NSISArray_newAPI::Search
+ - NSISArray_newAPI::SearchI
+ - NSISArray_newAPI::SetAutoReDim
+ - NSISArray_newAPI::SetSize
+ - NSISArray_newAPI::Shift
+ - NSISArray_newAPI::SizeOf
+ - NSISArray_newAPI::Sort
+ - NSISArray_newAPI::Splice
+ - NSISArray_newAPI::Subtract
+ - NSISArray_newAPI::Swap
+ - NSISArray_newAPI::Unshift
+ - NSISArray_newAPI::Write
+ - NSISArray_newAPI::WriteList
+ - NSISArray_newAPI::WriteListC
+ - NSISdl::download
+ - NSISdl::download_quiet
+ - SkinnedControls::setskin
+ - SkinnedControls::skinit
+ - SkinnedControls::unskinit
+ - Splash::show
+ - StartMenu::Init
+ - StartMenu::Select
+ - StartMenu::Show
+ - System::Alloc
+ - System::Call
+ - System::Copy
+ - System::Free
+ - System::Get
+ - System::Int64Op
+ - System::Store
+ - TypeLib::GetLibVersion
+ - TypeLib::Register
+ - TypeLib::UnRegister
+ - UserInfo::GetAccountType
+ - UserInfo::GetName
+ - UserInfo::GetOriginalAccountType
+ - VPatch::GetFileCRC32
+ - VPatch::GetFileMD5
+ - VPatch::vpatchfile
+ - nsDialogs::Create
+ - nsDialogs::CreateControl
+ - nsDialogs::CreateItem
+ - nsDialogs::CreateTimer
+ - nsDialogs::GetUserData
+ - nsDialogs::KillTimer
+ - nsDialogs::OnBack
+ - nsDialogs::OnChange
+ - nsDialogs::OnClick
+ - nsDialogs::OnNotify
+ - nsDialogs::SelectFileDialog
+ - nsDialogs::SelectFolderDialog
+ - nsDialogs::SetRTL
+ - nsDialogs::SetUserData
+ - nsDialogs::Show
+ - nsExec::Exec
+ - nsExec::ExecToLog
+ - nsExec::ExecToStack
+
+!define: "APPNAME"="ObitEdit2"
+!define: "COMPANYNAME"="ODT"
+!define: "VERSIONMAJOR"="0"
+!define: "VERSIONMINOR"="6"
+!define: "VERSIONBUILD"="3"
+!define: "VERSIONSTRING"="ObitEdit206"
+!define: "VERSIONDOTTED"="0.6.3"
+!define: "INSTALLSIZE"="510"
+Name: "ODT - ObitEdit2"
+Icon: "..\images\odt_logo.ico"
+OutFile: "ObitEdit206ins.exe"
+!include: "C:\Program Files (x86)\NSIS\Include\LogicLib.nsh"
+!include: closed: "C:\Program Files (x86)\NSIS\Include\LogicLib.nsh"
+InstallDir: "$PROGRAMFILES\ODT\ObitEdit2"
+Page: directory
+Page: instfiles
+UninstPage: uninstConfirm
+UninstPage: instfiles
+Function: ".onInit"
+SetShellVarContext: all
+!insertmacro: VerifyUserIsAdmin
+File: "UserInfo.dll"->"$PLUGINSDIR\UserInfo.dll" [compress] 1336/4096 bytes
+Plugin Command: GetAccountType
+Pop: $0
+!insertmacro: _If
+!insertmacro: end of _If
+MessageBox: 16: "Administrator rights required!"
+SetErrorLevel: 740
+Quit
+!insertmacro: _EndIf
+!insertmacro: end of _EndIf
+!insertmacro: end of VerifyUserIsAdmin
+FunctionEnd
+Section: ""
+SetOutPath: "$INSTDIR"
+File: "ObitEdit2.exe" [compress] 135024/166631 bytes
+File: "odt_logo.ico" [compress] 28727/39965 bytes
+WriteRegStr: HKLM\SOFTWARE\ODT\ObitEdit2\=$INSTDIR
+WriteRegStr: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\ODT ObitEdit2\DisplayName=ODT - ObitEdit2
+WriteRegStr: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\ODT ObitEdit2\UninstallString="$INSTDIR\unObitEdit2.exe"
+WriteRegStr: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\ODT ObitEdit2\InstallLocation="$INSTDIR"
+WriteRegStr: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\ODT ObitEdit2\DisplayIcon="$INSTDIR\odt_logo.ico"
+WriteRegStr: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\ODT ObitEdit2\Publisher=Obituary Daily Times
+WriteRegStr: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\ODT ObitEdit2\DisplayVersion=0.6.3
+WriteRegDWORD: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\ODT ObitEdit2\VersionMajor=0
+WriteRegDWORD: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\ODT ObitEdit2\VersionMinor=6
+WriteRegDWORD: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\ODT ObitEdit2\NoModify=1
+WriteRegDWORD: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\ODT ObitEdit2\NoRepair=1
+WriteRegDWORD: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\ODT ObitEdit2\EstimatedSize=510
+CreateDirectory: "$SMPROGRAMS\ODT"
+CreateShortCut: "$SMPROGRAMS\ODT\ObitEdit2.lnk"->"$INSTDIR\ObitEdit2.exe"  icon:$INSTDIR\odt_logo.ico,0, showmode=0x0, hotkey=0x0, comment=
+CreateShortCut: "$SMPROGRAMS\ODT\Uninstall ObitEdit2.lnk"->"$INSTDIR\unObitEdit2.exe"  icon:,0, showmode=0x0, hotkey=0x0, comment=
+SetOutPath: "$DESKTOP"
+CreateShortCut: "$DESKTOP\ObitEdit2.lnk"->"$INSTDIR\ObitEdit2.exe"  icon:$INSTDIR\odt_logo.ico,0, showmode=0x0, hotkey=0x0, comment=
+WriteUninstaller: "$INSTDIR\unObitEdit2.exe"
+SectionEnd
+Section: "UserSetup"
+Var: "ODTDIR"
+StrCpy $ODTDIR "$PROFILE\ODT" () ()
+CreateDirectory: "$ODTDIR"
+CreateDirectory: "$ODTDIR\Check"
+Var: "LIBDIR"
+StrCpy $LIBDIR "$ODTDIR\lib" () ()
+SetOutPath: "$LIBDIR"
+File: "abbrev.txt" [compress] 7280/17644 bytes
+File: "pubs.txt" [compress] 61038/225084 bytes
+File: "rmvtitles.txt" [compress] 156/251 bytes
+File: "tagname.txt" [compress] 30933/69499 bytes
+SectionEnd
+UninstallText: "This will uninstall ObitEdit2 from your system" ""
+Section: "Uninstall"
+SetShellVarContext: all
+Delete: "$DESKTOP\ObitEdit2.lnk"
+Delete: "$SMPROGRAMS\ODT\ObitEdit2.lnk"
+Delete: "$SMPROGRAMS\ODT\Uninstall ObitEdit2.lnk"
+RMDir: "$SMPROGRAMS\ODT\ObitEdit2"
+RMDir: "$SMPROGRAMS\ODT"
+Delete: "$INSTDIR\ObitEdit2.exe"
+Delete: "$INSTDIR\odt_logo.ico"
+DeleteRegKey: HKLM\SOFTWARE\ODT\ObitEdit2
+DeleteRegKey: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\ODT ObitEdit2
+Delete: "$INSTDIR\unObitEdit2.exe"
+RMDir: "$INSTDIR"
+SectionEnd
+
+Processed 1 file, writing output:
+Adding plug-ins initializing function... Done!
+Processing pages... Done!
+Removing unused resources... Done!
+Generating language tables... Done!
+Generating uninstaller... Done!
+
+Output: "C:\Users\Owner\workspace\ObitEdit2Project\nsis\ObitEdit206ins.exe"
+Install: 3 pages (192 bytes), 2 sections (2096 bytes), 57 instructions (1596 bytes), 106 strings (1818 bytes), 1 language table (230 bytes).
+Uninstall: 3 pages (192 bytes), 
+1 section (1048 bytes), 13 instructions (364 bytes), 65 strings (1099 bytes), 1 language table (214 bytes).
+
+Using zlib compression.
+
+EXE header size:               74240 / 35840 bytes
+Install code:                   1716 / 6260 bytes
+Install data:                 264522 / 523206 bytes
+Uninstall code+data:            1292 / 1808 bytes
+CRC (0xF0A02BCD):                  4 / 4 bytes
+
+Total size:                   341774 / 567118 bytes (60.2%)
